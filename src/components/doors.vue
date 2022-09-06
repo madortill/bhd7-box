@@ -94,6 +94,7 @@ export default {
      this.showVideo = this.showVideo ? false : true;
         if (this.showVideo) {
           this.buttonType = require('../assets/media/closeVideoBtn.svg');
+          this.hideNumbers = true;
         } else {
           this.buttonType = require('../assets/media/backToVideoBtn.svg');
         } 
