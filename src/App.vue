@@ -28,7 +28,7 @@ export default {
   data() {
     return {
       showDoors: true,
-      cardsFinished: 4,
+      cardsFinished: 0,
       showWords: false,
       showDomino: false,
       showQuestions: false,
@@ -90,7 +90,7 @@ export default {
   top: -0.5vh;
   left: -0.3vw;
   overflow: hidden;
-  background-size: 100% 100%;
+  background-size: 140% 140%;
   position: absolute;
 }
 
