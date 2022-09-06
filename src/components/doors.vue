@@ -91,12 +91,13 @@ export default {
       this.openQuestion = false;
     },
    handleVideo() {
-     this.showVideo = this.showVideo ? false : true;
+     this.showVideo = !this.showVideo;
         if (this.showVideo) {
           this.buttonType = require('../assets/media/closeVideoBtn.svg');
           this.hideNumbers = true;
         } else {
           this.buttonType = require('../assets/media/backToVideoBtn.svg');
+          this.hideNumbers = false;
         } 
     },
     finish() {
